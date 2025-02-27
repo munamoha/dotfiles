@@ -1,0 +1,8 @@
+# Midterm Practice Questions + Exmplanation
+
+## True or False
+
+1. If all the non-empty subsequences of a sequence are frequent in a sequence database, the sequence must be frequent in the database.
+	- **True**, apriori rule. frequency of a subset can't exceed the superset.
+2. The more accurate a decision tree is on the training data set, the more accurate the tree will be on a test data set in the same domain
+	- **False**,
