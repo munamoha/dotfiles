@@ -28,6 +28,8 @@ As well, download [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth/t
 
 The rofi theme comes from [rofi-themes-collection](https://github.com/newmanls/rofi-themes-collection) specifically DarkBlue by Qball.
 
+You can also use [rofi-wifi-menu](https://github.com/ericmurphyxyz/rofi-wifi-menu) if you would like. Right now I am figuring out how to include it as a click event in polybar the way I did for bluetooth.
+
 Wallpaper is Haruka Kiritani's "You Deserve It" card from Project Sekai: Colorful Stage. The image is in the .wallpapers folder I have made and pointed feh to.
 
 Plasma is still installed here so I use SDDM. Spectacle was the original screenshooter, but I have changed it to Flameshot in i3. Spectaclerc is still there in case you want to use it anyways.
