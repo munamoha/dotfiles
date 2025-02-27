@@ -6,7 +6,6 @@ Dotfiles for my EndeavourOS i3 setup. I will update this as I go.
 > for i3 packages, if on EndeavourOS, other than i3-wm, i3blocks, i3locks and i3status, rofi, lightdm (if u use it, this one uses SDDM), mpv, feh, dunst, rofi, thunar, etc are included when running ```eos-packagelist --install "i3-Window-Manager"``` to install i3. however, there are still important other packages to install.
 
 - i3-wm
-- i3
 - libpulse
 - brightnessctl
 - bluez and bluez-utils
