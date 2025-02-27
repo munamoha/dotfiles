@@ -22,6 +22,7 @@ Dotfiles for my EndeavourOS i3 setup. I will update this as I go.
 - picom
 - flameshot
 - ttf-jetbrains-mono-nerd
+- ttf-cascadia-mono-nerd 
   
 As well, download [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth/tree/master) for my polybar config if you would like, from the AUR or from the git repo if you are not on an Arch-based distribution.
 
