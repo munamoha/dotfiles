@@ -34,7 +34,8 @@ exec --no-startup-id dex --autostart --environment i3
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
+# commented out bc i still didnt put it in the bar. i use nmtui or the script rofi-wifi-menu instead rn
+# exec --no-startup-id nm-applet 
 
 # set background
 exec --no-startup-id ~/.fehbg &
