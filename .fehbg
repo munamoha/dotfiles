@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/home/muna/Pictures/icons+wallpapers/wallpapers/harukard.webp' 
+feh --no-fehbg --bg-fill ~/.wallpapers/harukard.webp
