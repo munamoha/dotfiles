@@ -113,8 +113,8 @@ bindsym $mod+y border normal 1
 bindsym $mod+u border pixel 1
 
 
-# use spectacle to screenshot (stealing from my plasma install)
-bindsym Print exec spectacle -r
+# use flameshot to screenshot (change from spectacle - in case i or anyone else needs this without plasma dependencies)
+bindsym Print exec flameshot gui
 
 # split in horizontal orientation
 bindsym $mod+h split h
