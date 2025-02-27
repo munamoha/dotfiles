@@ -1,0 +1,18 @@
+[Annotations]
+annotationToolType=5
+blurStrength=0
+
+[FileDialogSize]
+2 screens: Height=540
+2 screens: Width=960
+
+[GuiConfig]
+includeDecorations=false
+
+[ImageSave]
+lastImageSaveAsLocation=file:///home/muna/Pictures/Screenshots/drun + firefox.png
+lastImageSaveLocation=file:///home/muna/Pictures/Screenshots/drun + firefox.png
+translatedScreenshotsFolder=Screenshots
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts
