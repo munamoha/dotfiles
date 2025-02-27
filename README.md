@@ -17,6 +17,7 @@ Dotfiles for my EndeavourOS i3 setup. I will update this as I go.
 - btop
 - fastfetch
 - fish
+- micro
 - kitty
 - picom
 - flameshot
