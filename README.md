@@ -7,6 +7,9 @@ Dotfiles for my EndeavourOS i3 setup. I will update this as I go.
 
 - i3-wm
 - i3
+- libpulse
+- brightnessctl
+- bluez and bluez-utils
 - feh
 - rofi
 - betterlockscreen
