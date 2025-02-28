@@ -23,6 +23,8 @@ font pango:monospace 8
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
 
+
+
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
@@ -30,7 +32,14 @@ exec --no-startup-id dex --autostart --environment i3
 # screen before suspend. Use loginctl lock-session to lock your screen.
 # exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
+# Lock screen with betterlockscreen
+bindsym $mod+m exec --no-startup-id betterlockscreen -l
 
+# change layoutstto alternate between horizontal and vertical split, spiralling style.
+# found at https://github.com/olemartinorg/i3-alternating-layout?tab=readme-ov-file
+# used the aur install but if u use git then include path to the script
+
+exec --no-startup-id alternating_layouts.py
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -75,8 +84,6 @@ bindsym $mod+r exec "rofi -modi drun,run -show drun"
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
-# Lock screen with betterlockscreen
-bindsym $mod+m exec --no-startup-id betterlockscreen -l
 
 # brightness
 bindsym XF86MonBrightnessUp exec brightnessctl set +5%
