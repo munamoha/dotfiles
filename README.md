@@ -28,6 +28,8 @@ Dotfiles for my EndeavourOS i3 setup. I will update this as I go.
   
 As well, download [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth/tree/master) for my polybar config if you would like, from the AUR or from the git repo if you are not on an Arch-based distribution. Similarly download [rofi-mixer](https://github.com/joshpetit/rofi-mixer), also from the aur
 
+My firefox theme is added here, downloaded from the AUR package of [textfox](https://github.com/adriankarlen/textfox)
+
 The rofi theme comes from [rofi-themes-collection](https://github.com/newmanls/rofi-themes-collection) specifically DarkBlue by Qball.
 
 You can also use [rofi-wifi-menu](https://github.com/ericmurphyxyz/rofi-wifi-menu) if you would like. Right now I am figuring out how to include it as a click event in polybar the way I did for bluetooth.
