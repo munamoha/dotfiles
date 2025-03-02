@@ -22,9 +22,11 @@ Dotfiles for my EndeavourOS i3 setup. I will update this as I go.
 - flameshot
 - ttf-jetbrains-mono-nerd
 - ttf-cascadia-mono-nerd
-- alternating-layouts-git (from aur, or [the i3-alternating-layout on github](https://github.com/olemartinorg/i3-alternating-layout?tab=readme-ov-file) with the i3 config edited to find the script)
+- (from aur, or [the i3-alternating-layout on github](https://github.com/olemartinorg/i3-alternating-layout?tab=readme-ov-file) with the i3 config edited to find the script)
+- alternating-layouts-git
+- dunst (as script isnt from AUR, i included it here from this [gitlab](https://gitlab.com/Nmoleo/i3-volume-brightness-indicator)
   
-As well, download [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth/tree/master) for my polybar config if you would like, from the AUR or from the git repo if you are not on an Arch-based distribution.
+As well, download [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth/tree/master) for my polybar config if you would like, from the AUR or from the git repo if you are not on an Arch-based distribution. Similarly download [rofi-mixer](https://github.com/joshpetit/rofi-mixer), also from the aur
 
 The rofi theme comes from [rofi-themes-collection](https://github.com/newmanls/rofi-themes-collection) specifically DarkBlue by Qball.
 
