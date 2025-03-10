@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/home/muna/.wallpapers/harukard.webp' '/home/muna/.wallpapers/phantomthieves.jpg'
+feh --no-fehbg --bg-fill ~/.wallpapers/harukard.webp ~/.wallpapers/phantomthieves.jpg
