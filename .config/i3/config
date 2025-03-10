@@ -93,6 +93,10 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym $mod+Return exec kitty
 
+# start file manager
+
+bindsym $mod+d exec dolphin ~
+
 # kill focused window
 bindsym $mod+q kill
 
