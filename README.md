@@ -36,7 +36,7 @@ The rofi theme comes from [rofi-themes-collection](https://github.com/newmanls/r
 
 You can also use [rofi-wifi-menu](https://github.com/ericmurphyxyz/rofi-wifi-menu) if you would like. Right now I am figuring out how to include it as a click event in polybar the way I did for bluetooth.
 
-For simplicity, I use [mons](https://github.com/Ventto/mons), also in the AUR, to handle dual screen setups.
+For simplicity, I use [mons-git from this repository](https://github.com/Ventto/mons), also in the AUR as mons or mons-git, to handle dual screen setups.
 
 Wallpaper is Haruka Kiritani's "You Deserve It" card from Project Sekai: Colorful Stage. The image is in the .wallpapers folder I have made and pointed feh to.
 
