@@ -36,9 +36,9 @@ You can also use [rofi-wifi-menu](https://github.com/ericmurphyxyz/rofi-wifi-men
 
 Wallpaper is Haruka Kiritani's "You Deserve It" card from Project Sekai: Colorful Stage. The image is in the .wallpapers folder I have made and pointed feh to.
 
-Plasma is still installed here so I use SDDM. Spectacle was the original screenshooter, but I have changed it to Flameshot in i3. Spectaclerc is still there in case you want to use it anyways.
+Plasma is still installed here so I use SDDM. Spectacle was the original screenshooter, but I have changed it to Flameshot in i3. Spectaclerc is still there in case you want to 
+use it anyways.
 
-
-![i3 ricing](https://github.com/user-attachments/assets/381bcdd8-d506-4ffc-9632-a439bb43e09d)
-![notion + firefox](https://github.com/user-attachments/assets/439aa820-9dc1-4eb0-9629-9c92c6af8a0c)
-![drun + firefox](https://github.com/user-attachments/assets/6f46d6ba-80ed-4433-a5dd-c7405367bfa7)
+![main](https://github.com/user-attachments/assets/77def8c2-13b9-411e-b709-3576ae2de946)
+![firefox](https://github.com/user-attachments/assets/65bad86c-9cc9-4e57-993d-217b866fc202)
+![second screen](https://github.com/user-attachments/assets/47aed7bf-a95c-4e26-85cc-8649d13a9fb3)
