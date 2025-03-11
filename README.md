@@ -11,6 +11,7 @@ Dotfiles for my EndeavourOS i3 setup. I will update this as I go.
 - bluez and bluez-utils
 - feh
 - rofi
+- rofi-power-menu (aur or [this repo](https://github.com/jluttine/rofi-power-menu))
 - betterlockscreen
 - polybar
 - btop
