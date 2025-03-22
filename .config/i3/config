@@ -93,7 +93,7 @@ bindsym $mod+Return exec kitty
 
 # start file manager
 
-bindsym $mod+d exec dolphin ~
+bindsym $mod+d exec thunar ~
 
 # kill focused window
 bindsym $mod+q kill
