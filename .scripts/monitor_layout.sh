@@ -44,7 +44,7 @@ do
 done
 
 ##
-# Dual screen options
+# Extend screen options
 ##
 for entry_a in $(seq 0 $((${NUM_MONITORS}-1)))
 do
@@ -52,9 +52,9 @@ do
     do
         if [ $entry_a != $entry_b ]
         then
-            TILES[$index]="Dual Screen ${MONITORS[$entry_a]} -> ${MONITORS[$entry_b]}"
+            TILES[$index]="Extend Screen ${MONITORS[$entry_a]} -> ${MONITORS[$entry_b]}"
             COMMANDS[$index]="xrandr --output ${MONITORS[$entry_a]} --auto \
-                              --output ${MONITORS[$entry_b]} --auto --left-of ${MONITORS[$entry_a]}"
+                              --output ${MONITORS[$entry_b]} --auto --right-of ${MONITORS[$entry_a]}"
 
             index+=1
         fi
