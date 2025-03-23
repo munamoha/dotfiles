@@ -5,7 +5,7 @@ zoxide init fish | source
 
 
 # Created by `pipx` on 2024-05-08 05:08:50
-set PATH $PATH /home/muna/.local/bin
+set PATH $PATH $HOME/.local/bin
 set -gx EDITOR micro
 
 set -x PATH $HOME/.pyenv/bin $PATH
