@@ -45,4 +45,4 @@ use it anyways.
 
 ![main](https://github.com/user-attachments/assets/77def8c2-13b9-411e-b709-3576ae2de946)
 ![firefox](https://github.com/user-attachments/assets/65bad86c-9cc9-4e57-993d-217b866fc202)
-![second screen](https://github.com/user-attachments/assets/47aed7bf-a95c-4e26-85cc-8649d13a9fb3)
+![newrofi](https://github.com/user-attachments/assets/0e98aa1f-8302-46a4-bb96-b477d1244dea)
