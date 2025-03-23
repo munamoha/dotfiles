@@ -46,3 +46,4 @@ use it anyways.
 ![main](https://github.com/user-attachments/assets/77def8c2-13b9-411e-b709-3576ae2de946)
 ![firefox](https://github.com/user-attachments/assets/65bad86c-9cc9-4e57-993d-217b866fc202)
 ![newrofi](https://github.com/user-attachments/assets/0e98aa1f-8302-46a4-bb96-b477d1244dea)
+![dunstvolume](https://github.com/user-attachments/assets/37e9a9ae-98cd-4cbe-bda3-edfa4e781de6)
