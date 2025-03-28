@@ -12,7 +12,6 @@ Dotfiles for my EndeavourOS i3 setup. I will update this as I go.
 - feh
 - rofi
 - rofi-power-menu (aur or [this repo](https://github.com/jluttine/rofi-power-menu))
-- betterlockscreen
 - polybar
 - btop
 - fastfetch
@@ -24,7 +23,8 @@ Dotfiles for my EndeavourOS i3 setup. I will update this as I go.
 - flameshot
 - ttf-jetbrains-mono-nerd
 - ttf-cascadia-mono-nerd
-- sddm
+- lightdm
+- light-locker
 - thunar
 - [textfox](https://github.com/adriankarlen/textfox) (included in the dotfiles, but just in case from the AUR or github)
 - alternating-layouts-git (from aur, or [the i3-alternating-layout on github](https://github.com/olemartinorg/i3-alternating-layout?tab=readme-ov-file) with the i3 config edited to find the script)
@@ -40,7 +40,7 @@ You can also use if you would like. Right now I am figuring out how to include i
 
 Wallpaper is Haruka Kiritani's "You Deserve It" card from Project Sekai: Colorful Stage. The second wallpaper is a Persona 5 the Animation wallpaper. The images are in the .wallpapers folder I have made and pointed feh to.
 
-Plasma is still installed here so I use SDDM. Spectacle was the original screenshooter, but I have changed it to Flameshot in i3. Spectaclerc is still there in case you want to 
+I had Plasma installed before, so I used to use tools like SDDM, Dolphin, etc. I have switched them out, as well as switching out Betterlockscreen, but betterlockscreenrc is still included. Spectacle was the original screenshooter, but I have changed it to Flameshot in i3. Spectaclerc is still there in case you want to 
 use it anyways.
 
 ![main](https://github.com/user-attachments/assets/77def8c2-13b9-411e-b709-3576ae2de946)
