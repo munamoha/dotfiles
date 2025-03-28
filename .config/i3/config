@@ -23,18 +23,18 @@ font pango:JetBrainsMono Nerd Font, Regular 10
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
 
-
+# start light-locker
+exec --no-startup-id light-locker
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-# exec --no-startup-id xss-lock --transfer-sleep-lock -- betterlockscreen --nofork
-# exec --no-startup-id xss-lock --transfer-sleep-lock -- betterlockscreen -l
+exec --no-startup-id xss-lock --transfer-sleep-lock -- light-locker-command --lock
 
-# Lock screen with betterlockscreen
-bindsym $mod+m exec --no-startup-id betterlockscreen -l
+# Lock screen with light-locker
+bindsym $mod+m exec --no-startup-id light-locker-command --lock
 
 # change layoutstto alternate between horizontal and vertical split, spiralling style.
 # found at https://github.com/olemartinorg/i3-alternating-layout?tab=readme-ov-file
