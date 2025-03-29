@@ -40,7 +40,11 @@ bindsym $mod+m exec --no-startup-id light-locker-command --lock
 # found at https://github.com/olemartinorg/i3-alternating-layout?tab=readme-ov-file
 # used the aur install but if u use git then include path to the script
 
-exec --no-startup-id alternating_layouts.py
+# exec --no-startup-id alternating_layouts.py
+
+# changed to autotiling script
+
+exec --no-startup autotiling 
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
