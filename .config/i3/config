@@ -16,7 +16,7 @@ set $mod Mod4
 font pango:JetBrainsMono Nerd Font, Regular 10
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
-# text rendering and scalability on retina/hidpi displays (thanks to pango).
+# text rendering and scalability on retinz a/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
 
 # Start XDG autostart .desktop files using dex. See also
@@ -44,7 +44,7 @@ bindsym $mod+m exec --no-startup-id light-locker-command --lock
 
 # changed to autotiling script
 
-exec --no-startup autotiling 
+exec --no-startup autotiling -w 1 2 3 4 5 &
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -63,9 +63,7 @@ exec --no-startup-id picom
 # start dunst
 exec --no-startup-id dunst
 
-# start udisksvm to automount
 
-exec --no-startup-id udisksvm -a >/dev/null & 
 
 # # Use pactl to adjust volume in PulseAudio.
 # set $refresh_i3status killall -SIGUSR1 i3status
@@ -82,7 +80,7 @@ exec --no-startup-id udisksvm -a >/dev/null &
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id ~/.config/dunst/volume_brightness.sh volume_up
 bindsym XF86AudioLowerVolume exec --no-startup-id ~/.config/dunst/volume_brightness.sh volume_down
-bindsym XF86AudioMute exec --no-startup-id~/.config/dunst/volume_brightness.sh volume_mute
+bindsym XF86AudioMute exec --no-startup-id ~/.config/dunst/volume_brightness.sh volume_mute
 bindsym XF86MonBrightnessUp exec --no-startup-id ~/.config/dunst/volume_brightness.sh brightness_up
 bindsym XF86MonBrightnessDown exec --no-startup-id ~/.config/dunst/volume_brightness.sh brightness_down
 
