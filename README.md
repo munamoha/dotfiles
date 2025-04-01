@@ -40,8 +40,7 @@ You can also use if you would like. Right now I am figuring out how to include i
 
 Wallpaper is Haruka Kiritani's "You Deserve It" card from Project Sekai: Colorful Stage. The second wallpaper is a Persona 5 the Animation wallpaper. The images are in the .wallpapers folder I have made and pointed feh to.
 
-I had Plasma installed before, so I used to use tools like SDDM, Dolphin, etc. I have switched them out, as well as switching out Betterlockscreen, but betterlockscreenrc is still included. Spectacle was the original screenshooter, but I have changed it to Flameshot in i3. Spectaclerc is still there in case you want to 
-use it anyways.
+I had Plasma installed before, so I used to use tools like SDDM, Dolphin, etc. I have switched them out, as well as switching out Betterlockscreen, but betterlockscreenrc is still included. Spectacle was the original screenshooter, but I have changed it to Flameshot in i3. Spectaclerc is still there in case you want to use it anyways. As well, I may jump between sddm and lightdm once in a while, especially to test out Wayland compositors.
 
 ![main](https://github.com/user-attachments/assets/77def8c2-13b9-411e-b709-3576ae2de946)
 ![firefox](https://github.com/user-attachments/assets/65bad86c-9cc9-4e57-993d-217b866fc202)
