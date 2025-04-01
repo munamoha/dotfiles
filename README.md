@@ -10,7 +10,7 @@ Dotfiles for my EndeavourOS i3 setup. I will update this as I go.
 - brightnessctl
 - bluez and bluez-utils
 - feh
-- rofi
+- rofi (specifically [rofi-lbonn-wayland](https://github.com/lbonn/rofi) to allow cross compatibility with Wayland if needed, but is optional)
 - rofi-power-menu (aur or [this repo](https://github.com/jluttine/rofi-power-menu))
 - polybar
 - btop
