@@ -39,8 +39,6 @@ Dotfiles for my EndeavourOS i3 setup. I will update this as I go.
 
 The rofi theme was edited from [rofi-themes-collection](https://github.com/newmanls/rofi-themes-collection) specifically DarkBlue by Qball.
 
-You can also use if you would like. Right now I am figuring out how to include it as a click event in polybar the way I did for bluetooth.
-
 Wallpaper is Haruka Kiritani's "You Deserve It" card from Project Sekai: Colorful Stage. The second wallpaper is a Persona 5 the Animation wallpaper. The images are in the .wallpapers folder I have made and pointed feh to.
 
 I had Plasma installed before, so I used to use tools like SDDM, Dolphin, etc. I have switched them out, as well as switching out Betterlockscreen, but betterlockscreenrc is still included. Spectacle was the original screenshooter, but I have changed it to Flameshot in i3. Spectaclerc is still there in case you want to use it anyways. As well, I may jump between sddm and lightdm once in a while, especially to test out Wayland compositors.
