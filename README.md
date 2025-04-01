@@ -1,6 +1,9 @@
 # i3 dotfiles
 Dotfiles for my EndeavourOS i3 setup. I will update this as I go.
 
+>[!NOTE]
+>These configs are used on a Lenovo Thinkpad 14 Gen 5 AMD, which will affect some configs, such as keybinds. Please ensure any adjustments based on your setup are made.
+
 ## packages required for these dotfiles
 > [!NOTE]
 > for i3 packages, if on EndeavourOS, when running ```eos-packagelist --install "i3-Window-Manager"``` to install i3, i3-wm, i3blocks, i3locks and i3status, rofi, lightdm (if u use it, this one uses SDDM), mpv, feh, dunst, rofi, thunar, etc are included. however, there are still important other packages and scripts to install. I will list the ones I use here
