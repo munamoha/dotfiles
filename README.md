@@ -1,41 +1,54 @@
-# i3 dotfiles
-Dotfiles for my EndeavourOS i3 setup. I will update this as I go.
-
+# i3 + hyprland dotfiles
+Dotfiles for my EndeavourOS system, with setup for both i3 and hyprland. I will update this as I go. 
 >[!NOTE]
 >These configs are used on a Lenovo Thinkpad 14 Gen 5 AMD, which will affect some configs, such as keybinds. Please ensure any adjustments based on your setup are made.
 
 ## packages required for these dotfiles
 > [!NOTE]
-> for i3 packages, if on EndeavourOS, when running ```eos-packagelist --install "i3-Window-Manager"``` to install i3, i3-wm, i3blocks, i3locks and i3status, rofi, lightdm, mpv, feh, dunst, rofi, thunar, etc are included. however, there are still important other packages and scripts to install. I will list the ones I use here
+> for i3 packages, if on EndeavourOS, when running ```eos-packagelist --install "i3-Window-Manager"``` to install i3, i3-wm, i3blocks, i3locks and i3status, rofi, lightdm, mpv, feh, dunst, rofi, thunar, etc are included. however, there are still important other packages and scripts to install.
+> Depending on if you'd like to use my hyprland or my i3 config, I will seperate the packages below by whether they're required for one, or for both.
 
-- i3-wm
+### used for both i3 and hyprland
 - libpulse
 - brightnessctl
 - bluez and bluez-utils
-- feh
-- rofi (specifically [rofi-lbonn-wayland](https://github.com/lbonn/rofi) to allow cross compatibility with Wayland if needed, but is optional)
+- rofi (specifically [rofi-lbonn-wayland](https://github.com/lbonn/rofi) to allow cross compatibility with Wayland)
 - rofi-power-menu (aur or [this repo](https://github.com/jluttine/rofi-power-menu))
-- polybar
+- [rofi-mixer](https://github.com/joshpetit/rofi-mixer), also from the aur
+- [rofi-wifi-menu](https://github.com/ericmurphyxyz/rofi-wifi-menu) 
+- dunst (as script isnt from AUR, i included it here from this [gitlab](https://gitlab.com/Nmoleo/i3-volume-brightness-indicator))
 - btop
 - fastfetch
 - hyfetch (use fastfetch as base)
 - fish
 - micro
 - kitty
-- picom
-- flameshot
 - ttf-jetbrains-mono-nerd
 - ttf-cascadia-mono-nerd
-- lightdm
-- light-locker
+- sddm
 - thunar
 - [textfox](https://github.com/adriankarlen/textfox) (included in the dotfiles, but just in case from the AUR or github)
-- alternating-layouts-git (from aur, or [the i3-alternating-layout on github](https://github.com/olemartinorg/i3-alternating-layout?tab=readme-ov-file) with the i3 config edited to find the script)
-- dunst (as script isnt from AUR, i included it here from this [gitlab](https://gitlab.com/Nmoleo/i3-volume-brightness-indicator))
-- autorandr (in addition to an edited version of [this monitor script](https://github.com/davatorium/rofi-scripts/blob/master/monitor_layout.sh)
 - [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth/tree/master) for my polybar config if you would like, from the AUR or from the git repo if you are not on an Arch-based distribution
-- [rofi-mixer](https://github.com/joshpetit/rofi-mixer), also from the aur
-- [rofi-wifi-menu](https://github.com/ericmurphyxyz/rofi-wifi-menu) 
+
+
+### i3 only
+- i3-wm
+- picom
+- feh
+- polybar
+- flameshot
+- alternating-layouts-git (from aur, or [the i3-alternating-layout on github](https://github.com/olemartinorg/i3-alternating-layout?tab=readme-ov-file) with the i3 config edited to find the script)
+- autorandr (in addition to an edited version of [this monitor script](https://github.com/davatorium/rofi-scripts/blob/master/monitor_layout.sh)
+
+### hyprland only
+- hyprland
+- hyprlock
+- hypridle
+- hyprpaper
+- hyprshot
+- xwaylandvideobridge
+- waybar
+- wdisplays
 
 The rofi theme was edited from [rofi-themes-collection](https://github.com/newmanls/rofi-themes-collection) specifically DarkBlue by Qball.
 
