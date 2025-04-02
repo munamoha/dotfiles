@@ -1,0 +1,41 @@
+* {
+    border: none;
+    border-radius: 10px;
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 10pt;
+    min-height: 0;
+    /* opacity: 0.8; */
+}
+
+window#waybar {
+    background: rgba(9, 16, 47, 0.8);
+    color: #F5F5F5;
+    border: 1px solid #33CCFF;
+    opacity: 0.8;
+}
+
+#clock, #battery, #network, #bluetooth, #backlight, #pulseaudio {
+    padding: 0 10px;
+    /* color: #33CCFF; */
+}
+
+#workspaces button.active {
+	color: #33CCFF;
+}
+
+#battery.charging {
+    color: #26A65B;
+}
+
+#battery.warning {
+    color: #E6B85C;
+}
+
+#battery.critical {
+    color: #E67E80;
+}
+
+#network.disconnected {
+    color: #E67E80;
+}
+
