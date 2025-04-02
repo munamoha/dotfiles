@@ -12,7 +12,7 @@ Dotfiles for my EndeavourOS system, with setup for both i3 and hyprland. I will 
 - libpulse
 - brightnessctl
 - bluez and bluez-utils
-- rofi (specifically [rofi-lbonn-wayland](https://github.com/lbonn/rofi) to allow cross compatibility with Wayland if needed, but is optional)
+- rofi (specifically [rofi-lbonn-wayland](https://github.com/lbonn/rofi) to allow cross compatibility with Wayland)
 - rofi-power-menu (aur or [this repo](https://github.com/jluttine/rofi-power-menu))
 - [rofi-mixer](https://github.com/joshpetit/rofi-mixer), also from the aur
 - [rofi-wifi-menu](https://github.com/ericmurphyxyz/rofi-wifi-menu) 
