@@ -48,6 +48,7 @@ Dotfiles for my EndeavourOS system, with setup for both i3 and hyprland. I will 
 - hyprshot
 - xwaylandvideobridge
 - waybar
+- wdisplays
 
 The rofi theme was edited from [rofi-themes-collection](https://github.com/newmanls/rofi-themes-collection) specifically DarkBlue by Qball.
 
