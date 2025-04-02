@@ -1,0 +1,61 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "margin-top": 6,
+    "margin-left": 12,
+    "margin-right": 12,
+    "modules-left": ["hyprland/workspaces",],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["pulseaudio", "bluetooth", "backlight", "network", "battery", "clock"],
+// 
+	"hyprland/workspaces": {
+		"format": "{name}",
+		// "format-icons": {
+		// 	"active": "",
+		// 	"visible": ""
+		// },
+	},
+
+    "pulseaudio": {
+        "format": "<span color=\"#33CCFF\">{icon}</span> {volume}%",
+        "format-muted": "<span color=\"#33CCFF\">󰝟</span> muted",
+        "on-click": "rofi-mixer",
+        "format-icons": ["", "", ""]
+    },
+
+    "bluetooth": {
+        "format": "<span color=\"#33CCFF\"></span> {status}",
+        "format-disabled": "<span color=\"#33CCFF\"></span> off",
+        "on-click": "rofi-bluetooth"
+    },
+
+    "backlight": {
+        "device": "amdgpu_bl1",
+        "format": "<span color=\"#33CCFF\">{icon}</span> {percent}%",
+        "format-icons": ["󰃞", "󰃝", "󰃟", "󰃠"]
+    },
+
+    "network": {
+        "interface": "wlan0",
+        "format-wifi": "<span color=\"#33CCFF\">{icon}</span> {essid}",
+        "format-ethernet": "<span color=\"#33CCFF\"></span> {ipaddr}",
+        "format-disconnected": "<span color=\"#33CCFF\">󰤭</span>  disconnected",
+        "tooltip": false,
+        "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+        "on-click": "rofi-wifi-menu"
+    },
+
+    "battery": {
+        "bat": "BAT0",
+        "format": "<span color=\"#33CCFF\">{icon}</span> {capacity}%",
+        "format-charging": "<span color=\"#33CCFF\"></span> <span color=\"#F5F5F5\">{capacity}%</span>",
+        "format-full": "<span color=\"#33CCFF\">{icon}</span> Full",
+        "format-icons": ["", "", "", "", ""]
+    },
+
+    "clock": {
+        "format": "<span color=\"#33CCFF\"></span> {:%I:%M %p}",
+        "tooltip-format": "{:%Y-%m-%d}"
+    }
+}
