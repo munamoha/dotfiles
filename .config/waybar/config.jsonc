@@ -5,15 +5,15 @@
     "margin-top": 6,
     "margin-left": 12,
     "margin-right": 12,
-    "modules-left": ["hyprland/workspaces", "hyprland/window"],
-    "modules-center": [],
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["hyprland/window"],
     "modules-right": ["pulseaudio", "bluetooth", "backlight", "network", "battery", "clock"],
 // 
-	"hyprland/window": {
-		"format": "<span color=\"#33CCFF\">|</span> {title}"		// 	"active": "",
-		// 	"visible": ""
-		// },
-	},
+	// "hyprland/window": {
+	// 	"format": "<span color=\"#33CCFF\">|</span> {title}"		// 	"active": "",
+	// 	// 	"visible": ""
+	// 	// },
+	// },
 
     "pulseaudio": {
         "format": "<span color=\"#33CCFF\">{icon}</span> {volume}%",
