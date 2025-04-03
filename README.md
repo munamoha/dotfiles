@@ -56,7 +56,13 @@ Wallpaper is Haruka Kiritani's "You Deserve It" card from Project Sekai: Colorfu
 
 I had Plasma installed before, so I used to use tools like SDDM, Dolphin, etc. I have switched them out, as well as switching out Betterlockscreen, but betterlockscreenrc is still included. Spectacle was the original screenshooter, but I have changed it to Flameshot in i3. Spectaclerc is still there in case you want to use it anyways. As well, I may jump between sddm and lightdm once in a while, especially to test out Wayland compositors.
 
+
+## i3 examples
 ![main](https://github.com/user-attachments/assets/77def8c2-13b9-411e-b709-3576ae2de946)
 ![firefox](https://github.com/user-attachments/assets/65bad86c-9cc9-4e57-993d-217b866fc202)
 ![newrofi](https://github.com/user-attachments/assets/0e98aa1f-8302-46a4-bb96-b477d1244dea)
 ![dunstvolume](https://github.com/user-attachments/assets/37e9a9ae-98cd-4cbe-bda3-edfa4e781de6)
+
+## hyprland examples
+![2025-04-02-222508_hyprshot](https://github.com/user-attachments/assets/b58deb9d-f2f1-469b-9e2a-554e4891bfe1)
+![2025-04-02-223340_hyprshot](https://github.com/user-attachments/assets/2be3d593-239a-4ff0-99fc-6bdcabf3c43a)
