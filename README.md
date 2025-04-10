@@ -48,6 +48,7 @@ Dotfiles for my EndeavourOS system, with setup for both i3 and hyprland. I will 
 - hypridle
 - hyprpaper
 - hyprshot
+- xdg-desktop-portal-hyprland 
 - xwaylandvideobridge
 - waybar
 - wdisplays
