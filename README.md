@@ -29,6 +29,8 @@ Dotfiles for my EndeavourOS system, with setup for both i3 and hyprland. I will 
 - thunar
 - [textfox](https://github.com/adriankarlen/textfox) (included in the dotfiles, but just in case from the AUR or github)
 - [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth/tree/master) for my polybar config if you would like, from the AUR or from the git repo if you are not on an Arch-based distribution
+- firefox (option to use theme)
+- vivaldi (option)
 
 
 ### i3 only
