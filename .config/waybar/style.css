@@ -11,7 +11,7 @@ window#waybar {
     background: rgba(9, 16, 47, 1);
     color: #F5F5F5;
     /* border: 1px solid #33CCFF; */
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 /* Module styling */
