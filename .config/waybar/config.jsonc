@@ -31,7 +31,8 @@
     "backlight": {
         "device": "amdgpu_bl1",
         "format": "<span color=\"#33CCFF\">{icon}</span> {percent}%",
-        "format-icons": ["󰃞", "󰃝", "󰃟", "󰃠"]
+        "format-icons": ["󰃞", "󰃝", "󰃟", "󰃠"],
+        "tooltip": false
     },
 
     "network": {
