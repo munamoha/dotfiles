@@ -25,7 +25,7 @@
     "bluetooth": {
         "format": "<span color=\"#33CCFF\"></span> {status}",
         "format-disabled": "<span color=\"#33CCFF\"></span> off",
-        "on-click": "rofi-bluetooth"
+        "on-click": "bzmenu --launcher rofi"
     },
 
     "backlight": {
