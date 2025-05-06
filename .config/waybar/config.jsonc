@@ -47,6 +47,7 @@
 
     "battery": {
         "bat": "BAT0",
+        "on-click": "rofi-power-profiles",
         "format": "<span color=\"#33CCFF\">{icon}</span> {capacity}%",
         "format-charging": "<span color=\"#33CCFF\"></span> <span color=\"#F5F5F5\">{capacity}%</span>",
         "format-full": "<span color=\"#33CCFF\">{icon}</span> Full",
