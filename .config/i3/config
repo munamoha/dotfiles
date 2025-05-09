@@ -94,9 +94,10 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym $mod+Return exec kitty
 
-# start file manager
+# start file manager, option for thunar if u wanna avoid cinnamon dependencies
 
-bindsym $mod+d exec thunar ~
+# bindsym $mod+d exec thunar ~
+bindsym $mod+d exec nemo ~
 
 # kill focused window
 bindsym $mod+q kill
