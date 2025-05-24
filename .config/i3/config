@@ -34,7 +34,7 @@ exec --no-startup-id light-locker
 exec --no-startup-id xss-lock --transfer-sleep-lock -- betterlockscreen -l
 
 # Lock screen with betterlockscreen
-bindsym $mod+m exec --no-startup-id betterlockscreen -l
+bindsym $mod+l exec --no-startup-id betterlockscreen -l
 
 # change layoutstto alternate between horizontal and vertical split, spiralling style.
 # found at https://github.com/olemartinorg/i3-alternating-layout?tab=readme-ov-file
@@ -115,10 +115,10 @@ bindsym $mod+r exec "rofi -modi drun,run -show drun"
 
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+# bindsym $mod+j focus left
+# bindsym $mod+k focus down
+# bindsym $mod+l focus up
+# bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -231,6 +231,8 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # use rofi-power-menu on power button
 bindsym XF86PowerOff exec rofi -show power-menu -modi "power-menu:rofi-power-menu --choices=shutdown/reboot/suspend/logout"
+# alt keybind mod+m for other keyboards
+bindsym $mod+m exec rofi -show power-menu -modi "power-menu:rofi-power-menu --choices=shutdown/reboot/suspend/logout"
 
 
 # resize window (you can also use the mouse for that)
