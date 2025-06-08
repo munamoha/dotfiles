@@ -20,6 +20,7 @@ Dotfiles for my EndeavourOS system, with setup for both i3 and hyprland. I will 
 - btop
 - fastfetch
 - hyfetch (use fastfetch as base)
+- power-profiles-daemon
 - fish
 - micro
 - kitty
